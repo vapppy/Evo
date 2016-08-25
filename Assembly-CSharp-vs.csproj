@@ -48,12 +48,20 @@
   <ItemGroup>
      <Compile Include="Assets\Agent.cs" />
      <Compile Include="Assets\Egg.cs" />
-     <Compile Include="Assets\Manager.cs" />
+     <Compile Include="Assets\ManagerObsolete.cs" />
+     <Compile Include="Assets\Scripts\Manager.cs" />
+     <Compile Include="Assets\Scripts\Utils.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="AForge">
  <HintPath>C:/Users/вапвапвмс/Documents/Projects/Evo/Assets/AForge.dll</HintPath>
+ </Reference>
+ <Reference Include="AForge.Genetic">
+ <HintPath>C:/Users/вапвапвмс/Documents/Projects/Evo/Assets/AForge.Genetic.dll</HintPath>
+ </Reference>
+ <Reference Include="AForge.Math">
+ <HintPath>C:/Users/вапвапвмс/Documents/Projects/Evo/Assets/AForge.Math.dll</HintPath>
  </Reference>
  <Reference Include="AForge.Neuro">
  <HintPath>C:/Users/вапвапвмс/Documents/Projects/Evo/Assets/AForge.Neuro.dll</HintPath>
