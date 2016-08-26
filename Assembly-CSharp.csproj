@@ -49,6 +49,7 @@
      <Compile Include="Assets\Agent.cs" />
      <Compile Include="Assets\Egg.cs" />
      <Compile Include="Assets\ManagerObsolete.cs" />
+     <Compile Include="Assets\Scripts\Cam.cs" />
      <Compile Include="Assets\Scripts\Manager.cs" />
      <Compile Include="Assets\Scripts\Utils.cs" />
  <Reference Include="UnityEngine.UI">
